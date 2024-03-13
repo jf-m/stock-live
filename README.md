@@ -5,6 +5,13 @@
 
 </p>
 
+<img width="1284" alt="image" src="https://github.com/jf-m/stock-live/assets/9339799/95d2dcf3-709a-4a9d-8635-acecfe8baec7">
+
+## stock-live
+
+Demo project that consumes Alpha Vantage API, using Laravel's Job, Cache, Eloquent and PHPUnit. It provides an endpoint to get the latest price of a stock and a simple dashboard that displays a Percentage Change of 10 Stocks.
+
+
 # Installation
 
 ## Install the dependencies and build
