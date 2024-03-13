@@ -32,8 +32,8 @@ return [
     ],
 
     'alpha-vantage' => [
-        'key' => env('ALPHA_VANTAGE_API_KEY'),
-        'url' => env('ALPHA_VANTAGE_URL'),
+        'key' => env('ALPHA_VANTAGE_API_KEY', 'apikey'),
+        'url' => env('ALPHA_VANTAGE_URL', 'https://www.alphavantage.co/query'),
     ],
 
 ];
