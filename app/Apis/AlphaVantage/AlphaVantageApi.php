@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Http;
 class AlphaVantageApi extends BaseApi
 {
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public function fetchLatestMarketValues(string $symbol): Collection
     {

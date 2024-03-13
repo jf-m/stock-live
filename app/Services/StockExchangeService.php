@@ -17,7 +17,7 @@ class StockExchangeService implements StockExchangeServiceContract
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function fetchAndStoreLatestMarketValuesOf(Stock $stock): void
     {
@@ -38,9 +38,7 @@ class StockExchangeService implements StockExchangeServiceContract
      * Store in the database a collection of MarketValueDTO and attach it to $stock
      * This method can handle a large number of MarketValueDTO
      *
-     * @param Stock $stock
-     * @param Collection<string|int,MarketValueDTO> $marketValueDtoCollection
-     * @return void
+     * @param  Collection<string|int,MarketValueDTO>  $marketValueDtoCollection
      */
     protected function bulkStoreMarketValueDtoCollection(Stock $stock, Collection $marketValueDtoCollection): void
     {

@@ -12,8 +12,8 @@ interface StockExchangeApiContract
     /**
      * Fetch latest market values from a third party API
      *
-     * @param string $symbol
      * @return Collection<int|string, MarketValueDTO>
+     *
      * @throws InvalidApiResponseException
      * @throws RequestException
      */

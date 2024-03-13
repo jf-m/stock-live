@@ -20,6 +20,8 @@ Execute the following to install the dependencies and build the front using Dock
 ```shell
 # Install the PHP dependencies
 docker run -it --rm -v `pwd`:/app composer install
+# Start laravel sail (Docker)
+./vendor/bin/sail up -d
 # Install JS dependencies
 ./vendor/bin/sail npm install
 # Build the front
@@ -37,7 +39,7 @@ Update the file `.env`'s value for `ALPHA_VANTAGE_API_KEY` with your Alpha Vanta
 Execute the two following commands in separate terminals:
 ```shell
 # Start laravel sail (Docker)
-./vendor/bin/sail up
+./vendor/bin/sail up -d
 ```
 
 The front should be available on `http://localhost`
