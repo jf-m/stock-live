@@ -1,6 +1,7 @@
 
 <p align="center">
-<a href="https://github.com/jf-m/stock-live/actions"><img src="https://github.com/jf-m/stock-live/workflows/tests/badge.svg" alt="Build Status"></a>
+[![PHPUnit](https://github.com/jf-m/stock-live/actions/workflows/tests.yml/badge.svg)](https://github.com/jf-m/stock-live/actions/workflows/tests.yml)
+[![Static Analysis](https://github.com/jf-m/stock-live/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/jf-m/stock-live/actions/workflows/static-analysis.yml)
 </p>
 
 # Installation
