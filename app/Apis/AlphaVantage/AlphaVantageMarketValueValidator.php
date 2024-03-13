@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Validator;
 class AlphaVantageMarketValueValidator
 {
     /**
+     * Validates the passed $jsonResponse against AlphaVantage's API signature
+     *
      * @param  array<string, mixed>|null  $jsonResponse
      * @return array<string, mixed>
      *

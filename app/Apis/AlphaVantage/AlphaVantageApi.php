@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\Http;
 
 class AlphaVantageApi extends BaseApi
 {
+    /**
+     * @inheritDoc
+     */
     public function fetchLatestMarketValues(string $symbol): Collection
     {
         $response = Http::get(config('services.alpha-vantage.url'), [

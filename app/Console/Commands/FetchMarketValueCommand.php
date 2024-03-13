@@ -21,7 +21,7 @@ class FetchMarketValueCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Fetch latest market value from the stock exchange';
+    protected $description = 'Dispatches one or multiple jobs to fetch the latest market value from the stock exchange.';
 
     /**
      * Execute the console command.

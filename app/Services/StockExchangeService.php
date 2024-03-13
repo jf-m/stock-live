@@ -39,7 +39,7 @@ class StockExchangeService implements StockExchangeServiceContract
      * This method can handle a large number of MarketValueDTO
      *
      * @param Stock $stock
-     * @param Collection $marketValueDtoCollection
+     * @param Collection<string|int,MarketValueDTO> $marketValueDtoCollection
      * @return void
      */
     protected function bulkStoreMarketValueDtoCollection(Stock $stock, Collection $marketValueDtoCollection): void

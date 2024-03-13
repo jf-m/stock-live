@@ -7,6 +7,8 @@ use App\Models\MarketValue;
 class MarketValueTransformer extends BaseTransformer
 {
     /**
+     * Transforms a MarketValue Eloquent Model into a json
+     *
      * @param  MarketValue  $value
      * @return array<string, mixed>
      */

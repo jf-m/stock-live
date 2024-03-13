@@ -4,6 +4,10 @@ namespace App\Apis\DTO;
 
 use Carbon\Carbon;
 
+/**
+ * DTO Object used to carry data between third party API (Alpha Vantage) and services in this app.
+ *
+ */
 class MarketValueDTO implements \JsonSerializable
 {
     public function __construct(

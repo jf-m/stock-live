@@ -9,6 +9,8 @@ use Illuminate\Support\Collection;
 class AlphaVantageMarketValueMapper
 {
     /**
+     * Map a json response from Alpha Vantage to a MarketValueDTO
+     *
      * @param  array<string, mixed>|null  $jsonResponse
      * @return Collection<int|string, MarketValueDTO>
      */

@@ -11,7 +11,6 @@ use Illuminate\Support\Collection;
  * @property int $id
  * @property string $name
  * @property string $symbol
- * @property Collection<MarketValue> $marketValues
  */
 class Stock extends Model
 {
