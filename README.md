@@ -40,7 +40,7 @@ The front should be available on `http://localhost`
 Execute the following commands to seed the database with 10 stocks and the latest market value for each stock:
 
 ```shell
-./vendor/bin/sail artisan db:seed
+./vendor/bin/sail artisan migrate --seed
 ./vendor/bin/sail artisan market:fetch
 ```
 
