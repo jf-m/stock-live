@@ -11,6 +11,7 @@
 
 Demo project that consumes Alpha Vantage API, using Laravel's Job, Cache, Eloquent and PHPUnit. It provides an endpoint to get the latest price of a stock and a simple dashboard that displays a Percentage Change of 10 Stocks.
 
+This project uses Laravel 11, Vue.js 4, TailwindCSS, Vite.
 
 # Installation
 
@@ -55,9 +56,9 @@ Execute the following commands to seed the database with 10 stocks and the lates
 
 # Endpoints
 
-| Endpoint            | Description                                                              |
-|---------------------|--------------------------------------------------------------------------|
-| `/api/stock/{symbol}` | Return the latest market price data for a stock (eg. IBM, AAPL, MSFT...) |
+| Endpoint               | Description                                                              |
+|------------------------|--------------------------------------------------------------------------|
+| `/api/stock/{symbol}/price/latest` | Return the latest market price data for a stock (eg. IBM, AAPL, MSFT...) |
 
 
 # Contributing
