@@ -11,7 +11,7 @@
 
 Demo project that consumes Alpha Vantage API, using Laravel's Job, Cache, Eloquent and PHPUnit. It provides an endpoint to get the latest price of a stock and a simple dashboard that displays a Percentage Change of 10 Stocks.
 
-This project uses Laravel 11, Vue.js 4, TailwindCSS, Vite.
+This project uses Laravel 11, Vue.js 3, TailwindCSS, Vite.
 
 # Installation
 
